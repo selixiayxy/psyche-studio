@@ -1,0 +1,46 @@
+
+    .hero {
+        height: 100vh; /* Full viewport height */
+        width: 100%;
+        position: relative; /* Not fixed! */
+        /*background: linear-gradient(to right, #ff6ec4, #7873f5);*/
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        /* Ensure it starts from the very top */
+        top: 0;
+        left: 0;
+        /* Don't use overflow: hidden here as it might cause issues */
+      }
+      
+      .hero-content {
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+        width: 100%;
+        background-image: url('http://localhost:3000/images/hero-background.png');
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left:0;
+        height: 100%;
+        /*padding: 2rem;*/
+      }
+      
+      .hero-title {
+        position: relative;
+        font-size: 4rem;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 2px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+        top:80%;
+        margin-bottom: 10vh; /* 10% of viewport height from bottom */
+      }
+
+
+     

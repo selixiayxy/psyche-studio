@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+html {
+  overflow-x: hidden; /* Ensure no horizontal overflow */
+}
+
+/* This ensures the page content will be scrollable */
+section {
+  /*min-height: 100vh; /* Forces each section to be at least one viewport height */
+  border-bottom: 5px solid red; /* Visual separator for debugging */
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.work-page {
+  padding-top: 70px;
+}
+
+.page-title {
+  padding: 40px 20px;
+  padding-left:2rem;
+  margin: 0 auto;
+}
+
+.page-title p {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+
+
+.info-page {
+  position: relative;
+  padding: 5rem 2rem;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  min-height: 100vh;
+  line-height: 1.2; 
+}
+
+.info-page p{
+  padding-left:2rem;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 10px;    /* Set a consistent top margin */
+    /* Standardize line height */
+  }
+  
+
+.hoverable-item {
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.service-item {
+  line-height: 1.2; 
+}
+
+.hoverable-item:hover {
+  color: #555;
+}
+
+
+.hover-image {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.3s ease;
+  animation: fadeIn 0.3s forwards;
+ 
+}
+
+.hover-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+

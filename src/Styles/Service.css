@@ -1,0 +1,63 @@
+
+  /* Services.css */
+  .services-container {
+    font-family: roboto;
+    font-weight:200px;
+    margin: 2rem;
+    color: #333;
+    text-align:left;
+  }
+  
+  .main-title {
+    color: #ff0080;
+    font-size: 90px;
+    padding: 20px 20px;
+    border-bottom: 1px solid #ff0080;
+  }
+  
+  .section {
+    border-bottom: 1px solid #ff0080;
+    padding: 1rem;
+    
+  }
+  
+  .section-header {
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+    display: inline-block;
+   
+    padding-left:1rem;
+    padding-right: 1rem;
+ 
+  }
+  
+  .dropdown-indicator {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    transform: rotate(-90deg);
+  }
+  
+  .dropdown-indicator.active {
+    transform: rotate(0deg);
+  }
+  
+  .section-content {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-width:80%;
+  }
+  
+  .section-content p {
+    margin-top: 0;
+    margin-left:1rem;
+  }
