@@ -28,7 +28,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
   const allGalleryItems = [
     {
       id: 1,
-      image: "http://localhost:3000/images/feature-1.png",
+      image: "/images/feature-1.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
@@ -36,7 +36,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 2,
-      image: "http://localhost:3000/images/feature-2.png",
+      image: "/images/feature-2.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
@@ -44,7 +44,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 3,
-      image: "http://localhost:3000/images/feature-3.png",
+      image: "/images/feature-3.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
@@ -52,7 +52,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 4,
-      image: "http://localhost:3000/images/feature-4.png",
+      image: "/images/feature-4.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
@@ -60,7 +60,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 5,
-      image: "http://localhost:3000/images/feature-5.png",
+      image: "/images/feature-5.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
@@ -68,7 +68,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 6,
-      image: "http://localhost:3000/images/feature-6.png",
+      image: "/images/feature-6.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
@@ -79,7 +79,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
 
     {
       id: 7,
-      image: "http://localhost:3000/images/feature-1.png",
+      image: "/images/feature-1.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
@@ -87,7 +87,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 8,
-      image: "http://localhost:3000/images/feature-2.png",
+      image: "/images/feature-2.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
@@ -95,7 +95,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 9,
-      image: "http://localhost:3000/images/feature-3.png",
+      image: "/images/feature-3.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
@@ -103,7 +103,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id:10,
-      image: "http://localhost:3000/images/feature-4.png",
+      image: "/images/feature-4.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
@@ -111,7 +111,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 11,
-      image: "http://localhost:3000/images/feature-5.png",
+      image: "/images/feature-5.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
@@ -119,7 +119,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 12,
-      image: "http://localhost:3000/images/feature-6.png",
+      image: "/images/feature-6.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
