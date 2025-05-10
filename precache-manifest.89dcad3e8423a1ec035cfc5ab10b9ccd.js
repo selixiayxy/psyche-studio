@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32160e4b45ba5605f2aa292c060fc6eb",
+    "revision": "957a1b2ce3b1618380502f42941652a9",
     "url": "/psyche-studio/index.html"
   },
   {
-    "revision": "11441cdf297a64bd49b5",
-    "url": "/psyche-studio/static/css/main.343a5a83.chunk.css"
+    "revision": "1f1a2b2f81af34a99694",
+    "url": "/psyche-studio/static/css/main.021ac804.chunk.css"
   },
   {
     "revision": "36ff835d11d9006dfa37",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/psyche-studio/static/js/3.fc5cbf83.chunk.js"
   },
   {
-    "revision": "11441cdf297a64bd49b5",
-    "url": "/psyche-studio/static/js/main.1df27a85.chunk.js"
+    "revision": "1f1a2b2f81af34a99694",
+    "url": "/psyche-studio/static/js/main.a1acab8c.chunk.js"
   },
   {
     "revision": "2a83b2b227c6bad268af",
