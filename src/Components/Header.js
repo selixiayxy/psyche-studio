@@ -32,7 +32,7 @@ function Header() {
      
       <div className="logo">
       <Link to="/">
-        <img src="/images/psyche-logo.png" alt="PSCYCHE LOGO"></img>
+        <img src = {process.env.PUBLIC_URL + "/images/psyche-logo.png" } alt="PSCYCHE LOGO"></img>
         </Link>
 
       </div>
@@ -42,7 +42,7 @@ function Header() {
       <Link to="/work" onClick={() => console.log('Link clicked!')}>Work</Link>
       <Link to="/info">Info</Link>
               <a href="https://instagram.com" aria-label ="INSTAGRAM">
-          <img src="/images/instagram-logo.png" alt="INSTAGRAM" class="instagram-icon" href="/"></img>
+          <img src={process.env.PUBLIC_URL + "/images/instagram-logo.png"}  alt="INSTAGRAM" class="instagram-icon" href="/"></img>
         </a>
       </nav>
       
