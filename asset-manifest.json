@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/psyche-studio/static/css/main.27aeabcb.css",
+    "main.js": "/psyche-studio/static/js/main.f2875dc7.js",
+    "static/js/453.4c370d3f.chunk.js": "/psyche-studio/static/js/453.4c370d3f.chunk.js",
+    "index.html": "/psyche-studio/index.html",
+    "main.27aeabcb.css.map": "/psyche-studio/static/css/main.27aeabcb.css.map",
+    "main.f2875dc7.js.map": "/psyche-studio/static/js/main.f2875dc7.js.map",
+    "453.4c370d3f.chunk.js.map": "/psyche-studio/static/js/453.4c370d3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27aeabcb.css",
+    "static/js/main.f2875dc7.js"
+  ]
+}
