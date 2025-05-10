@@ -4,6 +4,7 @@ import WorkPage from './Pages/WorkPage';
 import InfoPage from './Pages/InfoPage';
 import Header from './Components/Header';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
