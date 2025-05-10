@@ -21,7 +21,7 @@
         z-index: 1;
         text-align: center;
         width: 100%;
-        background-image: url('/images/hero-background.png');
+        background-image: url(${process.env.PUBLIC_URL}/images/hero-background.png);
         background-size: cover;
         background-position: center;
         top: 0;

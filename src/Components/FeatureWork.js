@@ -28,7 +28,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
   const allGalleryItems = [
     {
       id: 1,
-      image: "/images/feature-1.png",
+      image: process.env.PUBLIC_URL + "/images/feature-1.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
@@ -36,7 +36,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 2,
-      image: "/images/feature-2.png",
+      image: process.env.PUBLIC_URL + "/images/feature-2.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
@@ -44,7 +44,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 3,
-      image: "/images/feature-3.png",
+      image: process.env.PUBLIC_URL + "/images/feature-3.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
@@ -52,7 +52,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 4,
-      image: "/images/feature-4.png",
+      image: process.env.PUBLIC_URL + "/images/feature-4.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
@@ -60,7 +60,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 5,
-      image: "/images/feature-5.png",
+      image: process.env.PUBLIC_URL + "/images/feature-5.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
@@ -68,66 +68,55 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 6,
-      image: "/images/feature-6.png",
+      image: process.env.PUBLIC_URL + "/images/feature-6.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
       featured: true
-
-      
     },
-
     {
       id: 7,
-      image: "/images/feature-1.png",
+      image: process.env.PUBLIC_URL + "/images/feature-1.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
-    
     },
     {
       id: 8,
-      image: "/images/feature-2.png",
+      image: process.env.PUBLIC_URL + "/images/feature-2.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
-      
     },
     {
       id: 9,
-      image: "/images/feature-3.png",
+      image: process.env.PUBLIC_URL + "/images/feature-3.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
-     
     },
     {
-      id:10,
-      image: "/images/feature-4.png",
+      id: 10,
+      image: process.env.PUBLIC_URL + "/images/feature-4.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 3,
-     
     },
     {
       id: 11,
-      image: "/images/feature-5.png",
+      image: process.env.PUBLIC_URL + "/images/feature-5.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
-    
     },
     {
       id: 12,
-      image: "/images/feature-6.png",
+      image: process.env.PUBLIC_URL + "/images/feature-6.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
-  
-
-      
     }
-  ];
+];
 
   const FeatureWork = ({ extended = false }) => {
     const [items, setItems] = useState([]);

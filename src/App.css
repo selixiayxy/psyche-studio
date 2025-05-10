@@ -62,7 +62,7 @@ html {
 /* This ensures the page content will be scrollable */
 section {
   /*min-height: 100vh; /* Forces each section to be at least one viewport height */
-  border-bottom: 5px solid red; /* Visual separator for debugging */
+  /*border-bottom: 5px solid red; /* Visual separator for debugging */
   margin-bottom: 20px;
   margin-top:20px;
 }
