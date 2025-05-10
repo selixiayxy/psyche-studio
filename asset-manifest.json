@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/psyche-studio/static/css/main.27aeabcb.css",
-    "main.js": "/psyche-studio/static/js/main.f2875dc7.js",
-    "static/js/453.4c370d3f.chunk.js": "/psyche-studio/static/js/453.4c370d3f.chunk.js",
+    "main.css": "/psyche-studio/static/css/main.b20fc3c4.chunk.css",
+    "main.js": "/psyche-studio/static/js/main.81a9f2a2.chunk.js",
+    "main.js.map": "/psyche-studio/static/js/main.81a9f2a2.chunk.js.map",
+    "runtime~main.js": "/psyche-studio/static/js/runtime~main.61bf1463.js",
+    "runtime~main.js.map": "/psyche-studio/static/js/runtime~main.61bf1463.js.map",
+    "static/js/2.5cf9c239.chunk.js": "/psyche-studio/static/js/2.5cf9c239.chunk.js",
+    "static/js/2.5cf9c239.chunk.js.map": "/psyche-studio/static/js/2.5cf9c239.chunk.js.map",
+    "static/js/3.fc5cbf83.chunk.js": "/psyche-studio/static/js/3.fc5cbf83.chunk.js",
+    "static/js/3.fc5cbf83.chunk.js.map": "/psyche-studio/static/js/3.fc5cbf83.chunk.js.map",
     "index.html": "/psyche-studio/index.html",
-    "main.27aeabcb.css.map": "/psyche-studio/static/css/main.27aeabcb.css.map",
-    "main.f2875dc7.js.map": "/psyche-studio/static/js/main.f2875dc7.js.map",
-    "453.4c370d3f.chunk.js.map": "/psyche-studio/static/js/453.4c370d3f.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.27aeabcb.css",
-    "static/js/main.f2875dc7.js"
-  ]
+    "precache-manifest.272f2f34110c5de9d6487e7accf4b913.js": "/psyche-studio/precache-manifest.272f2f34110c5de9d6487e7accf4b913.js",
+    "service-worker.js": "/psyche-studio/service-worker.js",
+    "static/css/main.b20fc3c4.chunk.css.map": "/psyche-studio/static/css/main.b20fc3c4.chunk.css.map"
+  }
 }
