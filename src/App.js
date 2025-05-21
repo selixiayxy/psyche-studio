@@ -3,6 +3,7 @@ import HomePage from './Pages/HomePage';
 import WorkPage from './Pages/WorkPage';
 import InfoPage from './Pages/InfoPage';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import './App.css';
 import React from 'react';
 
