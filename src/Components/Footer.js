@@ -10,11 +10,7 @@ function Footer() {
           {/* Left Column - Logo Image */}
           <div className="footer-column logo-column">
             <div className="logo-container">
-              <img 
-                src="/path-to-your-logo.png" 
-                alt="PSYCHE Logo" 
-                className="logo"
-              />
+              <img src = {process.env.PUBLIC_URL + "/images/psyche-logo.png" } alt="PSCYCHE LOGO"></img>
             </div>
           </div>
           

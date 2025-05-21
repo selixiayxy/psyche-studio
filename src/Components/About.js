@@ -29,6 +29,7 @@ function About() {
             </p>
             <br></br>
             <a href="/work" className="learn-more">Learn More About Us →</a>
+            
      
           </div>
 

@@ -3,14 +3,15 @@
   .services-container {
     font-family: roboto;
     font-weight:200px;
-    margin: 2rem;
     color: #333;
     text-align:left;
+     margin: 2rem;
+    padding: 2rem 1rem;  
   }
   
   .main-title {
     color: #ff0080;
-    font-size: 90px;
+    font-size: 5rem;
     padding: 20px 20px;
     border-bottom: 1px solid #ff0080;
   }

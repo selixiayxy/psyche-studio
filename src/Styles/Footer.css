@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background: linear-gradient(180deg, #F1F1F1 13.61%, #F1F1F1 62.14%, #FF167B 113.41%);
+    background: linear-gradient(180deg, #FFFFFF 23.61%, #FF167B 113.41%);
     padding: 20px 0;
   }
   
@@ -62,6 +62,7 @@
   
   .contact-link {
     text-decoration: none;
+    Color: Black;
   }
   
   .contact-link:hover {

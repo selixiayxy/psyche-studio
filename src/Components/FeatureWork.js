@@ -9,11 +9,22 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
   return (
     <div className={`gallery-item ${spanClass}`}>
       <div className="gallery-image-container">
-        <img 
-          src={image} 
-          alt={title}
-          className="gallery-image"
-        />
+       {image.endsWith('.mp4') ? (
+          <video
+            className="gallery-image"
+            src={image}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        ) : (
+          <img 
+            src={image} 
+            alt={title}
+            className="gallery-image"
+          />
+        )}
       </div>
       <div className="gallery-caption">
         <h3 className="caption-title">{title}</h3>
@@ -28,94 +39,103 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
   const allGalleryItems = [
     {
       id: 1,
-      image: process.env.PUBLIC_URL + "/images/feature-1.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/mirro-psychedelic.png",
+      title: "Mirror Psychedic",
+      subtitle: "Real-Time Mocap Performance",
       columns: 4,
       featured: true
     },
     {
       id: 2,
-      image: process.env.PUBLIC_URL + "/images/feature-2.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/codename.png",
+      title: "Codename",
+      subtitle: "CG Rendering, Virtual Avatar",
       columns: 2,
       featured: true
     },
     {
       id: 3,
-      image: process.env.PUBLIC_URL + "/images/feature-3.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/psycho-pot.png",
+      title: "Psycho Pot",
+      subtitle: "Installation",
       columns: 3,
       featured: true
     },
     {
       id: 4,
-      image: process.env.PUBLIC_URL + "/images/feature-4.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/melisa.png",
+      title: "Mellisa",
+      subtitle: "Virtual Avatar",
       columns: 3,
       featured: true
     },
     {
       id: 5,
-      image: process.env.PUBLIC_URL + "/images/feature-5.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/jaskytasi.png",
+      title: "JackyTsai Solo Exhibition",
+      subtitle: "Exhibition Design",
       columns: 4,
       featured: true
     },
     {
       id: 6,
-      image: process.env.PUBLIC_URL + "/images/feature-6.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/zara.png",
+      title: "Zara Red Pocket",
+      subtitle: "Motion Design",
       columns: 2,
       featured: true
     },
     {
       id: 7,
-      image: process.env.PUBLIC_URL + "/images/feature-1.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
-      columns: 4,
+      image: process.env.PUBLIC_URL + "/images/netrahex.png",
+      title: "NetraHex",
+      subtitle: "VR Experience",
+      columns: 3,
     },
     {
       id: 8,
-      image: process.env.PUBLIC_URL + "/images/feature-2.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
-      columns: 2,
+      image: process.env.PUBLIC_URL + "/images/dreamtravel.png",
+      title: "Dream Travel",
+      subtitle: "CG, Stylized Rendering",
+      columns: 3,
     },
     {
       id: 9,
-      image: process.env.PUBLIC_URL + "/images/feature-3.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/echo.png",
+      title: "Echo of Emotion",
+      subtitle: "Interactive Website",
       columns: 3,
     },
     {
       id: 10,
-      image: process.env.PUBLIC_URL + "/images/feature-4.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
+      image: process.env.PUBLIC_URL + "/images/Rojo-AFA.png",
+      title: "ROJO AFA",
+      subtitle: "Projection Mapping",
       columns: 3,
     },
     {
       id: 11,
-      image: process.env.PUBLIC_URL + "/images/feature-5.png",
+      image: process.env.PUBLIC_URL + "/images/feature-9.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 4,
     },
     {
       id: 12,
-      image: process.env.PUBLIC_URL + "/images/feature-6.png",
+      image: process.env.PUBLIC_URL + "/images/feature-10.png",
       title: "KitchenFM",
       subtitle: "3D Motion",
       columns: 2,
+    },
+    {
+      id: 13,
+      image: process.env.PUBLIC_URL + "/images/The Way In Patterns.mp4",
+      title: "The Way In Patterns",
+      subtitle: "Motion Design",
+      columns: 3,
     }
+
+  
 ];
 
   const FeatureWork = ({ extended = false }) => {
@@ -136,7 +156,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     <div className="gallery-container">
       {!extended && (
         <div className="gallery-header">
-          <h2 className="gallery-title">Feature Work</h2>
+          <h1 className="gallery-title">Feature Work</h1>
           <a href="/work" className="gallery-link">Explore More Projects</a>
         </div>
       )}

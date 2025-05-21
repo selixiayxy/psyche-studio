@@ -8,12 +8,12 @@ const InfoPage = () => {
   // Image mapping for each service and keyword
   const hoverableItems = {
     // Services
-    '3D Motion Design': 'http://localhost:3000/images/feature-1.png',
-    'Art Direction': '/path/to/art-direction-image.jpg',
-    'Installation': '/path/to/installation-image.jpg',
-    'AR': '/path/to/ar-image.jpg',
-    'VR': '/path/to/vr-image.jpg',
-    'Artificial Intelligence Generated Content': '/path/to/ai-content-image.jpg',
+    '3D Motion Design': '/images/feature-1.png',
+    'Art Direction': '/images/feature-3.png',
+    'Installation': '/images/feature-7.png',
+    'AR': '/images/feature-6.png',
+    'VR': '/images/feature-4.png',
+    'Artificial Intelligence Generated Content': '/images/feature-9.png',
     
     // Additional keywords in the description
     'technologies': '/path/to/technologies-image.jpg',
