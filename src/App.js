@@ -15,6 +15,7 @@ function App() {
         <Route path="/work" element={<WorkPage />} />
         <Route path="/info" element={<InfoPage />} />
       </Routes>
+        <Footer />
     </div>
   );
 }

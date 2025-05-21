@@ -11,7 +11,6 @@ function WorkPage() {
     
   return (
     <div className="work-page">
-      <Header />
       
       <section className="page-title">
         <p>We Work On</p>
@@ -23,7 +22,7 @@ function WorkPage() {
         <FeatureWork extended={true} />
       </section>
       
-      <Footer />
+    
     </div>
   );
 }
