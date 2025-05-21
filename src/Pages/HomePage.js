@@ -14,7 +14,6 @@ function HomePage() {
           <Services />
           <FeatureWork />
           </main>
-          <Footer />
         </div>
       );
     }
