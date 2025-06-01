@@ -62,3 +62,40 @@
     margin-top: 0;
     margin-left:1rem;
   }
+
+/* Service.css - Mobile Updates */
+@media (max-width: 767px) {
+  .main-title {
+    font-size: 2rem; /* Reduced from 2.5rem */
+    padding: 15px 10px;
+    line-height: 1.1;
+  }
+
+  .section-title {
+    font-size: 1.2rem; /* Reduced from 1.5rem */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .section-content {
+    font-size: 0.9rem; /* Reduced from 1rem */
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 1.8rem; /* Even smaller for very small phones */
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .section-content {
+    font-size: 0.85rem;
+  }
+
+}

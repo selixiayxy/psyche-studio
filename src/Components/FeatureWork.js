@@ -39,30 +39,38 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
   const allGalleryItems = [
     {
       id: 1,
-      image: process.env.PUBLIC_URL + "/images/mirro-psychedelic.png",
-      title: "Mirror Psychedic",
-      subtitle: "Real-Time Mocap Performance",
+      image: process.env.PUBLIC_URL + "/images/kitchenFM.png",
+      title: "KitchenFM",
+      subtitle: "3D Motion, VR Installation",
       columns: 4,
-      featured: true
+       featured: true
     },
     {
       id: 2,
-      image: process.env.PUBLIC_URL + "/images/codename.png",
-      title: "Codename",
-      subtitle: "CG Rendering, Virtual Avatar",
+      image: process.env.PUBLIC_URL + "/images/aoshanAR.png",
+      title: "Mythos Bloom",
+      subtitle: "AR Installation",
       columns: 2,
       featured: true
     },
     {
       id: 3,
-      image: process.env.PUBLIC_URL + "/images/psycho-pot.png",
-      title: "Psycho Pot",
-      subtitle: "Installation",
-      columns: 3,
+      image: process.env.PUBLIC_URL + "/images/snake.png",
+      title: "Psyche New Year RedPocket",
+      subtitle: "3D Motion, AR",
+      columns: 2,
       featured: true
     },
     {
       id: 4,
+      image: process.env.PUBLIC_URL + "/images/JackyTsai.png",
+      title: "JackyTsai Solo Exhibition",
+      subtitle: "Exhibition Design",
+      columns: 4,
+      featured: true
+    },
+    {
+      id: 5,
       image: process.env.PUBLIC_URL + "/images/melisa.png",
       title: "Mellisa",
       subtitle: "Virtual Avatar",
@@ -70,70 +78,85 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
       featured: true
     },
     {
-      id: 5,
-      image: process.env.PUBLIC_URL + "/images/jaskytasi.png",
-      title: "JackyTsai Solo Exhibition",
-      subtitle: "Exhibition Design",
-      columns: 4,
-      featured: true
-    },
-    {
       id: 6,
-      image: process.env.PUBLIC_URL + "/images/zara.png",
-      title: "Zara Red Pocket",
-      subtitle: "Motion Design",
-      columns: 2,
+      image: process.env.PUBLIC_URL + "/images/Echo.png",
+      title: "Echo of Emotion",
+      subtitle: "Interactive Website",
+      columns: 3,
       featured: true
     },
     {
       id: 7,
+      image: process.env.PUBLIC_URL + "/images/Zed-Automata.png",
+      title: "Zed-Automata.png",
+      subtitle: "3D Motion",
+      columns: 3,
+    },
+      {
+      id: 8,
+      image: process.env.PUBLIC_URL + "/images/MirrorPsychdelic.png",
+      title: "Mirror Psychedic",
+      subtitle: "Real-Time Mocap Performance",
+      columns: 3,
+    },
+    {
+      id: 9,
+      image: process.env.PUBLIC_URL + "/images/Rojo-AFA.png",
+      title: "ROJO AFA",
+      subtitle: "Projection Mapping, Motion Design",
+      columns: 3,
+    },
+
+    {
+      id: 10,
+      image: process.env.PUBLIC_URL + "/images/gugong.png",
+      title: "The Way In Patterns",
+      subtitle: "Motion Design",
+      columns: 3,
+    },
+
+    {
+      id: 11,
+      image: process.env.PUBLIC_URL + "/images/Psycho-pot.png",
+      title: "Psycho Pot",
+      subtitle: "Installation",
+      columns: 4,
+    },
+    {
+      id: 12,
+      image: process.env.PUBLIC_URL + "/images/kaidemg.gif",
+      title: "Capitaland(SG)",
+      subtitle: "Exhibition Design",
+      columns: 2,
+    },
+     
+     
+    {
+      id: 13,
       image: process.env.PUBLIC_URL + "/images/netrahex.png",
       title: "NetraHex",
       subtitle: "VR Experience",
       columns: 3,
     },
     {
-      id: 8,
+      id: 14,
+      image: process.env.PUBLIC_URL + "/images/feature-10.png",
+      title: "Flesh",
+      subtitle: "Installation, Machine Learning",
+      columns: 3,
+    },
+    {
+      id: 15,
       image: process.env.PUBLIC_URL + "/images/dreamtravel.png",
       title: "Dream Travel",
       subtitle: "CG, Stylized Rendering",
-      columns: 3,
-    },
-    {
-      id: 9,
-      image: process.env.PUBLIC_URL + "/images/echo.png",
-      title: "Echo of Emotion",
-      subtitle: "Interactive Website",
-      columns: 3,
-    },
-    {
-      id: 10,
-      image: process.env.PUBLIC_URL + "/images/Rojo-AFA.png",
-      title: "ROJO AFA",
-      subtitle: "Projection Mapping",
-      columns: 3,
-    },
-    {
-      id: 11,
-      image: process.env.PUBLIC_URL + "/images/feature-9.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
-      columns: 4,
-    },
-    {
-      id: 12,
-      image: process.env.PUBLIC_URL + "/images/feature-10.png",
-      title: "KitchenFM",
-      subtitle: "3D Motion",
-      columns: 2,
-    },
-    {
-      id: 13,
-      image: process.env.PUBLIC_URL + "/images/The Way In Patterns.mp4",
-      title: "The Way In Patterns",
-      subtitle: "Motion Design",
-      columns: 3,
+      columns: 6,
     }
+ 
+   
+
+  
+    
 
   
 ];
