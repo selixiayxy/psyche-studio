@@ -101,7 +101,7 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
     },
     {
       id: 9,
-      image: process.env.PUBLIC_URL + "/images/Rojo-AFA.png",
+      image: process.env.PUBLIC_URL + "/images/ROJO-AFA.png",
       title: "ROJO AFA",
       subtitle: "Projection Mapping, Motion Design",
       columns: 3,
