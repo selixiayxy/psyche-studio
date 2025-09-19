@@ -97,7 +97,8 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
       image: process.env.PUBLIC_URL + "/images/MirrorPsychdelic.png",
       title: "Mirror Psychedic",
       subtitle: "Real-Time Mocap Performance",
-      columns: 3,
+      columns: 4,
+      featured:true
     },
     {
       id: 9,
@@ -151,6 +152,16 @@ const GalleryItem = ({ image, columns, title, subtitle }) => {
       title: "Dream Travel",
       subtitle: "CG, Stylized Rendering",
       columns: 6,
+
+      
+    },
+    {
+      id: 16,
+      image: process.env.PUBLIC_URL + "/images/psychewonderland.jpg",
+      title: "Psyche Wonderland",
+      subtitle: "Audio-Visual Performance",
+      columns: 2,
+      featured: true
     }
  
    
